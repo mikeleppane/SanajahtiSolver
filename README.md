@@ -4,7 +4,8 @@ This repo contains solver for Sanajahti game written in Python programming langu
 
 ## How to Use
 
-Example run and printed output:
+Example run and first few lines printed on stdout:
+Point (0,0) represents top left corner and (size - 1, size - 1) bottom right corner.
 
 ```
 python3 solver.py -c cknaäytiennswpii -s 4

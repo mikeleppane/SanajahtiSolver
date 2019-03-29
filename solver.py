@@ -133,12 +133,6 @@ def handle_commandline():
         type=int,
         default=2,
         help="the size of the game board [default: 2x2]")
-    parser.add_argument(
-        "-w",
-        "--words",
-        type=str,
-        default=None,
-        help="the path for words file in xml format")
     args = parser.parse_args()
     return args.characters, args.size, args.words
 
